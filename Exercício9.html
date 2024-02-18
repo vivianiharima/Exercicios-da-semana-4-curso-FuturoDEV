@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Exercício 9</title>
+</head>
+<body>
+    <h1>Questão 9:</h1>
+    <h3>Use um switch para exibir mensagens diferentes com base em uma condição.</h3>
+    <script>
+        let notaEscolar = parseInt(prompt('Insira sua nota escolar'))
+        switch (notaEscolar){
+        case 0:
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            console.log("Vamos nos esforçar!")
+            break;
+        case 5:
+            console.log("Falta pouco para atingir a média!")
+            break;
+        case 6:
+            console.log("Média atingida")
+            break;
+        case 7:
+            console.log("Está indo bem!")
+            break;
+        case 8:
+            console.log("Boa nota!")
+            break;
+        case 9:
+            console.log("Ótimo desempenho! Parabéns!")
+            break;
+        case 10:
+            console.log("Excelente! Parabéns!")
+            break;
+        default:
+            console.log("Algo deu errado, tente digitar novamente")
+        }
+
+    </script>
+    
+</body>
+</html>
